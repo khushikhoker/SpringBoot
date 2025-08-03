@@ -3,7 +3,7 @@ package com.in28minutes.learn_spring_framework;
 import com.in28minutes.learn_spring_framework.game.MarioGame;
 import com.in28minutes.learn_spring_framework.game.SuperContraGame;
 
-public class AppGamingBasic {
+public class App01GamingBasic {
 
     public static void main(String[] args) {
         var marioGame = new MarioGame();
