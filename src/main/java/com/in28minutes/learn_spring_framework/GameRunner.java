@@ -1,20 +1,19 @@
 package com.in28minutes.learn_spring_framework;
 
-import com.in28minutes.learn_spring_framework.game.MarioGame;
+import com.in28minutes.learn_spring_framework.game.GamingConsole;
 
 public class GameRunner {
-    MarioGame marioGame;
+    GamingConsole game;
 
-    public GameRunner(MarioGame marioGame) {
-        this.marioGame = marioGame;
+    public GameRunner(GamingConsole game) {
+        this.game = game;
     }
 
-
     public void run() {
-        System.out.println(marioGame.getName() + "is started");
-        marioGame.up();
-        marioGame.down();
-        marioGame.left();
-        marioGame.right();
+        System.out.println(game+ " is started");
+        game.up();
+        game.down();
+        game.left();
+        game.right();
     }
 }
